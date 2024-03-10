@@ -166,8 +166,12 @@ form div span {
 .container-cards .card .card-body a {
   color: #fff;
   color: var(--white);
-  background-color: rgb(254, 216, 101);
+  background-color:#eecc33;
 }
 .container-cards .card .card-body .card-text {
   color: #999999;
+}
+.container-cards .card .card-body i{
+  color:#4392b0;
+  padding: 2px;
 }

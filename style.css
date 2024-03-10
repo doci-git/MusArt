@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,900;1,900&display=swap");
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto Slab", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*navbar styling*/
+
+nav {
+  text-align: center;
+}
+.max-width {
+  text-align: center;
+  margin: auto;
+}
+.navbar {
+  width: 100%;
+  text-align: center;
+}
+.navbar h1 {
+  color: rgb(24, 13, 0);
+  font-size: 50px;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+nav h3 {
+  margin-top: -10px;
+  font-size: 15px;
+  color: rgba(24, 13, 0, 0.735);
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+nav h4 {
+  margin-top: 0px;
+  margin-bottom: -10px;
+  font-size: 10px;
+  color: rgb(24, 13, 0);
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+/*navigation bar*/
+.navigation {
+  background: #222;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+.navigation i {
+  color: #fff;
+  padding: 10px;
+}
+
+/*carousel*/
+.w-100 {
+  height: 300px;
+}
+
+/*div before form*/
+.texth2 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.texth2 h2 {
+  color: #3d3e3f;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  word-spacing: -5px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+}
+
+/*form*/
+.form {
+  color: #565a5c;
+  border: 1px solid #565a5c;
+  outline: none;
+  background: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.book-btn {
+  text-align: center;
+  padding: 10px;
+}
+
+.submit-btn {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 365px;
+  background: #393;
+  color: #fff;
+}
+
+form div span {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #565a5c;
+}
+
+/*cards rooms*/
+.container-cards {
+  justify-content: center;
+  width: 100%;
+}
+.cards-title{
+  width: 70%;
+  margin: auto;
+}
+.container-cards .cards-title h2 {
+  color: #3d3e3f;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  word-spacing: -5px;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  text-align: center;
+}
+.card {
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.container-cards .card .card-body .card-title{
+  font-weight: bolder;
+  color: #5b5b5b;
+}
+.card img {
+  height: 250px;
+}
+.container-cards .card .card-body a{
+color: #fff;
+color:var(--white);
+background-color:rgb(254, 216, 101);
+
+}
+.container-cards .card .card-body .card-text{
+  color:#999999 ;
+}

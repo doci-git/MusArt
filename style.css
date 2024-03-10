@@ -110,13 +110,14 @@ nav h4 {
 .book-btn {
   text-align: center;
   padding: 10px;
+  width: 100%;
 }
 
 .submit-btn {
   border: none;
   border-radius: 5px;
   height: 40px;
-  width: 365px;
+  width:99%;
   background: #393;
   color: #fff;
 }
@@ -133,7 +134,7 @@ form div span {
   justify-content: center;
   width: 100%;
 }
-.cards-title{
+.cards-title {
   width: 70%;
   margin: auto;
 }
@@ -155,19 +156,18 @@ form div span {
   margin: auto;
   margin-bottom: 30px;
 }
-.container-cards .card .card-body .card-title{
+.container-cards .card .card-body .card-title {
   font-weight: bolder;
   color: #5b5b5b;
 }
 .card img {
   height: 250px;
 }
-.container-cards .card .card-body a{
-color: #fff;
-color:var(--white);
-background-color:rgb(254, 216, 101);
-
+.container-cards .card .card-body a {
+  color: #fff;
+  color: var(--white);
+  background-color: rgb(254, 216, 101);
 }
-.container-cards .card .card-body .card-text{
-  color:#999999 ;
+.container-cards .card .card-body .card-text {
+  color: #999999;
 }

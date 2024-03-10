@@ -94,10 +94,10 @@ nav h4 {
 /*form*/
 .form {
   color: #565a5c;
-  border: 1px solid #565a5c;
+  border: 1px solid #565a5c6d;
   outline: none;
   background: none;
-  padding: 5px;
+  padding: 5px 0px;
   border-radius: 5px;
 }
 

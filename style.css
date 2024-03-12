@@ -31,13 +31,22 @@ nav {
   text-align: center;
 }
 .navbar h1 {
+
   color: rgba(231, 127, 0, 0.888);
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
+
+.navbar .max-width span{ 
+  color: #222222cb;
+  font-size: 50px;
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;}
 nav h3 {
   margin-top: -10px;
   font-size: 15px;

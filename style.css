@@ -188,3 +188,11 @@ form div span {
   color:#4392b0;
   padding: 2px;
 }
+.border-white h2{
+    color: #3d3e3f;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+  text-align: center;
+}

@@ -159,6 +159,9 @@ form div span {
   font-weight: bold;
   text-align: center;
 }
+.cc1{
+box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
 .card {
   text-align: center;
   justify-content: center;

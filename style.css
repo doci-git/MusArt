@@ -77,6 +77,9 @@ nav h4 {
   color:#fff;
   padding: 10px;
 }
+.navigation i:hover{
+  color: #eecc33;
+}
 
 /*carousel*/
 .w-100 {

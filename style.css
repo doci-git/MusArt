@@ -74,11 +74,8 @@ nav h4 {
   z-index: 999;
 }
 .navigation i {
-  color:#fff;
+  color:#fffae4;
   padding: 10px;
-}
-.navigation i:hover{
-  color: #eecc33;
 }
 
 /*carousel*/

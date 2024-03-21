@@ -79,7 +79,7 @@ nav h4 {
 }
 
 /*carousel*/
-.w-100 {
+#carouselExampleFade .w-100 {
   height: 300px;
   object-fit: cover;
   object-position: center;
@@ -202,4 +202,10 @@ box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 .fa-instagram{
   font-size:40px;
   color: #dc3838cc;
+}
+
+#carouselExampleSlidesOnly .w-100 {
+  height: 500px;
+  object-fit:cover;
+  object-position: center;
 }

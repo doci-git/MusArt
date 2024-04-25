@@ -49,10 +49,10 @@ h3 {
   color: wheat;
 }
 
-.btn i {
-  font-size: 2.5rem;
-  color: #008000;
-  padding: 10px 10px 20px;
+
+img{
+  padding: 5px;
+  width: 3rem;
 }
 @media only screen and (min-width: 740px) {
   header h3 {
@@ -71,7 +71,7 @@ h3 {
     height: 750px;
   }
 
-  .btn i {
+  .btn img {
     font-size: 3rem;
   }
 }

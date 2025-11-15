@@ -82,7 +82,7 @@ nav h4 {
 #carouselExampleFade .w-100 {
   height: 300px;
   object-fit: cover;
-  object-position: center;
+  object-position: center; 
 }
 
 /*div before form*/
